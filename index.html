@@ -5,12 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora Plus</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="calculate_FILL0_wght400_GRAD0_opsz24.svg" type="image/x-icon">
 </head>
 <body>
     <div class="container">
 
         <div class="calc">
-            <h1>Calculadora</h1>
+            <object data="calculate_black_48dp.svg" type="image/svg+xml"></object>
+            <div class="calc-title">
+                Calculadora
+            </div>
             <input id="num1" type="number" />
             <input id="num2" type="number" />
             
@@ -24,6 +28,16 @@
             <input id="output" type="text" readonly/>
         </div>
         <div class="history">
+            <div class="history-title">
+                <h1>Histórico:</h1>
+            </div>
+            <div class="last-operations">
+                <small>10 Últimas operações:</small>
+                <div id="history">
+
+
+                </div>
+            </div>
 
         </div>
     </div>
